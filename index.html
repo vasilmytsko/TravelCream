@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TravelCream</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css"> </head>
+
+<body>
+    <div class="wrapper">
+        <!--===========================  HEADER ============================================-->
+        <header class="header">
+            <div class="wrap">
+                <div class="container ">
+                    <div class="header__block">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="header__top">
+                                   <div class="header__logo"><a href="#" class="logo">TravelCream</a> </div>
+                                    <nav class="header__nav hidden-xs">
+                                        <ul class="menu">
+                                            
+                                            <li class="menu__item"><a class='menu__link' href="#">Flights</a></li>
+                                            <li class="menu__item"><a class="menu__link" href="#">Hotels</a></li>
+                                            <li class="menu__item"><a class='menu__link' href="#">Trips</a></li>
+                                            <li class="menu__item"><a class='menu__link' href="#">Activity</a></li>
+                                            <li class="menu__item"><a class='menu__link' href="#">Deals</a></li>
+                                        </ul>
+                                    </nav>
+                                    <nav class="header__nav visible-xs"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars"></i></a>
+                                       
+                                        <ul class="menu menu--xs dropdown-menu">
+                                            <li class="menu__item"><a class='menu__link' href="#">Flights</a></li>
+                                            <li class="menu__item"><a class="menu__link" href="#">Hotels</a></li>
+                                            <li class="menu__item"><a class='menu__link' href="#">Trips</a></li>
+                                            <li class="menu__item"><a class='menu__link' href="#">Activity</a></li>
+                                            <li class="menu__item"><a class='menu__link' href="#">Deals</a></li>
+                                        </ul>
+                                    </nav>
+                                    <div class="header__login">
+                                        <div class="header__login-btn">
+                                            <button class="button__login">Login</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="header__title text-center">
+                                    <h1 class="titles">Do you want to visit Paris ?</h1>
+                                    <h2 class="subtitle">Why not</h2> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="header__search">
+                                    <div class="search">
+                                        <form action="#" class="search__form">
+                                            <div class="search__input">
+                                                <input type="search" class="search__field search__field-first" placeholder="Where are you leaving from ?">
+                                                <input type="search" class="search__field search__field-center" placeholder="Where do you want to go ?">
+                                                <input type="search" class="search__field search__field-last" placeholder="Date">
+                                                <button class="search__submit">Search</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--===========================  end HEADER ===========================================-->
+        <!--===========================  SECTION 1 ============================================-->
+        <section class="sect_1">
+            <div class="container">
+                <div class="row">
+                    <div class="flights">
+                        <div class="flights__top">
+                            <div class="flights__title">
+                                <h2 class="title">Flights</h2>
+                                <div class="sort">
+                                    <ul class="sort__list">
+                                        <li class="sort__item"> <a href="" class="sort__link active">Non stop</a> </li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Best Price</a> </li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Airline</a> </li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Schedule</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flights__content">
+                            <table>
+                                <tr>
+                                    <th>Airline</th>
+                                    <th>Date</th>
+                                    <th>Departure</th>
+                                    <th>Arrival</th>
+                                    <th>Time</th>
+                                    <th>Price</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="airline"> <img src="img/vueling.png" alt="vueling">
+                                            <div class="air"> <span class="air-name">Vueling</span> <span class="air-num">VO1367</span> </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="date"> <span class="date-air">03/11/2017</span> <span class="dey-air">In 3 days</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="departure"> <span class="departure-place">Paris (CDG)</span> <span class="departure-time">07:15</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="arrival"> <span class="arrival-place">Miami</span> <span class="arrival-time">5:00</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="time"> <span class="time-travel">08:45</span> <span class="travel">CDG – MIA</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="price"> 870$ </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="airline"> <img src="img/af.png" alt="vueling">
+                                            <div class="air"> <span class="air-name">Air France</span> <span class="air-num">AF90</span> </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="date"> <span class="date-air">03/11/2017</span> <span class="dey-air">In 3 days</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="departure"> <span class="departure-place">Paris (CDG)</span> <span class="departure-time">03:00</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="arrival"> <span class="arrival-place">Miami</span> <span class="arrival-time">11:45</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="time"> <span class="time-travel">08:45</span> <span class="travel">CDG – MIA</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="price"> 1023$ </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="airline"> <img src="img/aa.png" alt="vueling">
+                                            <div class="air"> <span class="air-name">American</span> <span class="air-num">AA63</span> </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="date"> <span class="date-air">03/11/2017</span> <span class="dey-air">In 3 days</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="departure"> <span class="departure-place">Paris (CDG)</span> <span class="departure-time">01:00</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="arrival"> <span class="arrival-place">Miami</span> <span class="arrival-time">10:00</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="time"> <span class="time-travel">09:00</span> <span class="travel">CDG – MIA</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="price"> 980$ </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="airline"> <img src="img/delta.png" alt="vueling">
+                                            <div class="air"> <span class="air-name">Delta</span> <span class="air-num">DL405</span> </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="date"> <span class="date-air">03/11/2017</span> <span class="dey-air">In 3 days</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="departure"> <span class="departure-place">Paris (CDG)</span> <span class="departure-time">02:30</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="arrival"> <span class="arrival-place">Miami</span> <span class="arrival-time">11:00</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="time"> <span class="time-travel">08:30</span> <span class="travel">CDG – MIA</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="price"> 1340$ </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="airline"> <img src="img/transavia.png" alt="vueling">
+                                            <div class="air"> <span class="air-name">Transavia</span> <span class="air-num">T04330</span> </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="date"> <span class="date-air">03/11/2017</span> <span class="dey-air">In 3 days</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="departure"> <span class="departure-place">Paris (CDG)</span> <span class="departure-time">02:00</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="arrival"> <span class="arrival-place">Miami</span> <span class="arrival-time">10:00</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="time"> <span class="time-travel">08:00</span> <span class="travel">CDG – MIA</span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="price"> 930$ </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="flights__bottom text-right">See all flights</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===========================  end SECTION 1 ========================================-->
+        <!--===========================  SECTION 2 ============================================-->
+        <section class="sect_2">
+            <div class="container">
+                <div class="row">
+                    <div class="hotels">
+                        <div class="hotels__top">
+                            <div class="hotels__title">
+                                <h2 class="title">Hotels</h2>
+                                <div class="sort hotels__sort">
+                                    <ul class="sort__list">
+                                        <li class="sort__item"> <a href="" class="sort__link active">Best Price</a> </li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Distance</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hotels__content">
+                            <div class="col-sm-4">
+                                <div class="hotel"> <img src="img/hotel-1.png" alt="hotel-1" class="img-responsive">
+                                    <div class="box">
+                                        <h3 class="hotel__name">Hotel Paris Ouest Acheres</h3>
+                                        <div class="description">
+                                            <div class="distance">12,3 km</div>
+                                            <div class="service">Free Wi-Fi</div>
+                                        </div>
+                                        <div class="cost">30$</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="hotel"> <img src="img/hotel-2.png" alt="hotel-1" class="img-responsive">
+                                    <div class="box">
+                                        <h3 class="hotel__name">L'Hotel du Collectionneur</h3>
+                                        <div class="description">
+                                            <div class="distance">9,8 km</div>
+                                            <div class="service">Free Wi-Fi</div>
+                                        </div>
+                                        <div class="cost">38$</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="hotel"> <img src="img/hotel-3.png" alt="hotel-1" class="img-responsive">
+                                    <div class="box">
+                                        <h3 class="hotel__name">Hotel Eiffel Seine</h3>
+                                        <div class="description">
+                                            <div class="distance">17,6 km</div>
+                                            <div class="service">Free Wi-Fi</div>
+                                        </div>
+                                        <div class="cost">42$</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="hotel"> <img src="img/hotel-4.png" alt="hotel-1" class="img-responsive">
+                                    <div class="box">
+                                        <h3 class="hotel__name">Hotel Mademoiselle</h3>
+                                        <div class="description">
+                                            <div class="distance">23,3 km</div>
+                                            <div class="service">Free Wi-Fi</div>
+                                        </div>
+                                        <div class="cost">46$</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="hotel"> <img src="img/hotel-5.png" alt="hotel-1" class="img-responsive">
+                                    <div class="box">
+                                        <h3 class="hotel__name">Hotel Novotel Paris-Les-Halles</h3>
+                                        <div class="description">
+                                            <div class="distance">10,7 km</div>
+                                            <div class="service">Free Wi-Fi</div>
+                                        </div>
+                                        <div class="cost">52$</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="hotel"> <img src="img/hotel-6.png" alt="hotel-1" class="img-responsive">
+                                    <div class="box">
+                                        <h3 class="hotel__name">Villa Royale Montsouris</h3>
+                                        <div class="description">
+                                            <div class="distance">14,8 km</div>
+                                            <div class="service">Free Wi-Fi</div>
+                                        </div>
+                                        <div class="cost">56$</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hotels__bottom text-right">See all hotels</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===========================  end SECTION 2 ========================================-->
+        <!--===========================  SECTION 3 ============================================-->
+        <section class="sect_3">
+            <div class="container">
+                <div class="row">
+                    <div class="attractions">
+                        <div class="attractions__top">
+                            <div class="attractions__title">
+                                <h2 class="title">Attractions</h2>
+                                <div class="sort attractions__sort">
+                                    <ul class="sort__list">
+                                        <li class="sort__item"> <a href="" class="sort__link active">All</a></li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Shoppings</a></li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Shows</a></li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Parks</a></li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Circuits</a></li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Museums</a></li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Monuments</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="attractions__content">
+                            <div class="box-img1">
+                                <div class="col-sm-4">
+                                    <figure class="eiffel"> <img src="img/Eiffel.png" alt="Eiffel Tower" class="img-responsive">
+                                        <figcaption>Eiffel Tower</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-sm-8">
+                                    <figure class="louvres"> <img src="img/Louvres.png" alt="Louvres" class="img-responsive">
+                                        <figcaption>Louvres</figcaption>
+                                    </figure>
+                                    <figure class="notre-dame"> <img src="img/NDP.png" alt="Notre Dame de Paris" class="img-responsive">
+                                        <figcaption>Notre Dame de Paris</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="box-img2">
+                                <div class="col-sm-4">
+                                    <figure class="forum"> <img src="img/Forum.png" alt="Forum des Halles" class="img-responsive">
+                                        <figcaption>Forum des Halles</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-sm-4">
+                                    <figure class="arc"> <img src="img/Arc.png" alt="Arc de Triomphe" class="img-responsive">
+                                        <figcaption>Arc de Triomphe</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-sm-4">
+                                    <figure class="sacre"> <img src="img/Sacr%C3%A9-Coeur.png" alt="Sacré Coeur" class="img-responsive">
+                                        <figcaption>Sacré Coeur</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="attractions__bottom text-right">See all attractions</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===========================  end SECTION 3 ========================================-->
+        <!--===========================  SECTION 4 ============================================-->
+        <section class="sect_4">
+            <div class="container">
+                <div class="row">
+                    <div class="trips">
+                        <div class="trips__top">
+                            <div class="trips__title">
+                                <h2 class="title">Trips</h2>
+                                <div class="sort trips__sort">
+                                    <ul class="sort__list">
+                                        <li class="sort__item"> <a href="" class="sort__link active">Best Price</a> </li>
+                                        <li class="sort__item"> <a href="" class="sort__link">Popularity</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trips__content">
+                            <div class="trip__box"> <img src="img/Trips-1.png" alt="Trips" class="img-responsive">
+                                <div class="trip__text">
+                                    <h3 class="trip__name">Accès prioritaire au sommet de la tour Eiffel et hôte</h3>
+                                    <div class="trip__txt"> Avec ce billet coupe-file pour la tour Eiffel, profitez de la seule entrée prioritaire à la tour qui comprend un guide et des commentaires, vous offrant une visite sans encombre de l'un des monuments les plus visités au monde. Accompagné de votre guide depuis l'extérieur de l'entrée principale jusqu'au deuxième étage, vous profiterez d'une entrée détendue à la tour Eiffel avec suffisamment de temps libre pour flâner. </div>
+                                </div>
+                            </div>
+                            <div class="trip__box"> <img src="img/Trips-2.png" alt="Trips" class="img-responsive">
+                                <div class="trip__text">
+                                    <h3 class="trip__name">Croisière sur la Seine de 3 heures avec les Bateaux-Mouches</h3>
+                                    <div class="trip__txt"> Découvrez Paris depuis l'eau lors d'une croisière de 3 heures sur la Seine à bord des emblématiques Bateaux-Mouches, avec dîner inclus. Vous pourrez admirer l’élégante architecture de la ville toute illuminée pour la soirée tandis que vous passerez à côté de monuments tels que la cathédrale Notre-Dame et la Tour Eiffel. Au moment de la réservation, choisissez le menu Prestige ou Excellence. </div>
+                                </div>
+                            </div>
+                            <div class="trip__box"> <img src="img/Trips-3.png" alt="Trips" class="img-responsive">
+                                <div class="trip__text">
+                                    <h3 class="trip__name">Billet d'entrée au Musée du Louvre avec présentation par un guide</h3>
+                                    <div class="trip__txt"> À un point de rencontre au centre de Paris, rencontrez le fournisseur de billet local, qui vous guidera devant la ligne d'entrée au Musée du Louvre pour un accès au musée, une des attractions les plus populaires de la ville. Explorez à votre guise l'art et d'autres arts qui vous intéressent. La cerise sur le gâteau est, bien entendu, la Joconde de Léonard de Vinci mais il y a de nombreux trésors à découvrir. </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trips__bottom text-right">See all Trips</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===========================  end SECTION 4 ========================================-->
+    </div>
+    <!--===========================    FOOTER    ==============================================-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer__content">
+                   <div class="footer__group1">
+                    <div class="col-xs-6 col-sm-2">
+                       <div class="footer__box footer__box-1 ">
+                        <h2 class="footer__title">Cities</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Paris</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Miami</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">London</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Madrid</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Tokyo</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Pekin</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="footer__box">
+                            <h2 class="footer__title">Explore</h2>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Register</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Login</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Assistance</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Eco</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="footer__group2">
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="footer__box">
+                            <h2 class="footer__title">About us</h2>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">About TravelCream</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Terms of Usage</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="footer__box-contact">
+                            <h2 class="footer__title">Contact</h2>
+                            <ul class="footer__list footer__list-col">
+                                <li class="footer__item"><a href="#" class="footer__link">Feel free to get in touch via email: <span class="email">support@travelcream.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--===========================  end  FOOTER ==============================================-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

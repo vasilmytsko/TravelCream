@@ -1,0 +1,529 @@
+html {
+    width: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+
+/* titles */
+
+h1 {
+    @include font($font-size-h1, $line-height-h1, $title-color);
+    font-family: $title-font-family;
+    font-weight: 500;
+}
+
+h2 {
+    @include font($font-size-h2, $line-height-h2, $title-color2);
+    font-family: $title-font-family;
+    font-weight: 400;
+}
+
+h3 {
+    @include font($font-size-h3, $line-height-h3, $title-color2);
+    font-family: $title-font-family;
+    font-weight: 500;
+}
+
+
+/*
+================================================================================
+|                                     CONTENT                                 |
+================================================================================
+*/
+
+
+/* ===============================  SECTION 1  ===================== */
+
+.sect_1 {
+    margin-top: 85px;
+}
+
+.flights__title {
+    margin-top: 12px;
+}
+
+.flights__title,
+.hotels__title,
+.attractions__title,
+.trips__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    padding-left: 30px;
+}
+
+.sort {
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+}
+
+.sort__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $text-color;
+}
+
+.sort__item {
+    padding-right: 20px;
+}
+
+.sort__item .active {
+    color: $text-color4;
+    font-weight: 500;
+}
+
+.sort__link {
+    font-size: 1.6rem;
+    color: $text-color2;
+    padding: 5px;
+    line-height: 30px;
+    &:hover {
+        color: $text-color4;
+    }
+    &:focus {
+        color: $text-color2;
+    }
+}
+
+.flights__content {
+    table {
+        width: 95%;
+        margin: 0 auto;
+    }
+    th {
+        width: 13%;
+        padding: 50px 0 50px 0;
+        color: $text-color2;
+        font-weight: 500;
+        font-size: 1.6rem;
+        &:first-child {
+            width: 27%;
+        }
+        &:nth-child(3) {
+            padding-left: 30px;
+        }
+        &:nth-child(4) {
+            padding-left: 45px;
+        }
+        &:nth-child(5) {
+            padding-left: 50px;
+        }
+        &:last-child {
+            padding-left: 120px;
+            width: 21%;
+        }
+    }
+    tr {
+        border-top: 1px solid $bg-color3;
+        &:first-child {
+            border-top: none;
+        }
+    }
+    td {
+        padding: 40px 0 40px 0;
+        &:first-child {}
+        &:last-child {
+            padding-left: 120px;
+        }
+    }
+}
+
+.airline {
+    display: flex;
+    align-items: center;
+    img {
+        margin-right: 30px;
+    }
+}
+
+.date,
+.departure,
+.arrival,
+.time {
+    width: 100%;
+    text-align: center;
+}
+
+.date {
+    text-align: left;
+}
+
+.air-name,
+.date-air,
+.departure-place,
+.arrival-place,
+.time-travel {
+    display: block;
+    color: $text-color2;
+    font-size: 1.6rem;
+    padding: 7px 0;
+}
+
+.air-num,
+.dey-air,
+.departure-time,
+.arrival-time,
+.travel {
+    display: block;
+    color: $text-color7;
+    font-size: 1.6rem;
+    padding: 7px 0;
+}
+
+.price,
+.cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border: 1px solid $bg-color;
+    border-radius: 3px;
+    color: $text-color4;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.flights__bottom,
+.hotels__bottom,
+.attractions__bottom,
+.trips__bottom {
+    font-size: 1.6rem;
+    color: #484848;
+    padding: 5px;
+    padding-top: 50px;
+    padding-right: 30px;
+    line-height: 19px;
+    //cursor: pointer;
+}
+
+
+/* ===============================  SECTION 2  ===================== */
+
+.hotels__top {
+    margin-top: 63px;
+}
+
+.hotels__sort {
+    width: 19%;
+    padding-right: 5px;
+}
+
+.hotels__content {
+    overflow: hidden;
+    padding: 17px 15px 20px 15px;
+}
+
+.hotel {
+    margin-top: 35px;
+    img {
+        width: 100%;
+    }
+}
+
+.box {
+    border: 1px solid $bg-color3;
+}
+
+.hotel__name {
+    padding: 12px;
+    padding-top: 25px;
+    line-height: 15px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    color: $text-color7;
+    font-size: 1.6rem;
+}
+
+.cost {
+    margin: 14px 12px;
+}
+
+.hotels__bottom {
+    padding-top: 27px;
+}
+
+
+/* ===============================  SECTION 3  ===================== */
+
+.attractions__top {
+    margin-top: 65px;
+}
+
+.attractions__sort {
+    width: 56%;
+}
+
+.attractions__content {
+    overflow: hidden;
+    padding-top: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box-img1,
+.box-img2 {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: $text-color;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.louvres {
+    margin-bottom: 33px;
+}
+
+.attractions__bottom {
+    padding-top: 10px;
+}
+
+
+/* ===============================  SECTION 4  ===================== */
+
+.trips {
+    padding-top: 64px;
+}
+
+.trips__content {
+    padding: 60px 30px 0;
+}
+
+.trips__sort {
+    width: 20%;
+    padding-right: 5px;
+}
+
+.trip__box {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.trip__text {
+    padding: 20px 26px;
+    border: 1px solid $bg-color3;
+}
+
+.trip__name {
+    line-height: 25px;
+}
+
+.trip__txt {
+    padding-top: 25px;
+    line-height: 25px;
+    font-size: 1.6rem;
+    color: $text-color2;
+}
+
+.trips__bottom {
+    padding-top: 12px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .sect_1 {
+        display: none;
+    }
+    .title {
+        width: 90%;
+        text-align: center;
+    }
+    .sort {
+        display: none;
+    }
+    .box-img1 {
+        margin-bottom: 0;
+    }
+    .attractions figure {
+        margin-bottom: 30px;
+    }
+    figure img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .trip__box {
+        flex-direction: column;
+    }
+    .flights__bottom,
+    .hotels__bottom,
+    .attractions__bottom,
+    .trips__bottom {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .sect_1 {
+        display: none;
+    }
+    .title {
+        width: 90%;
+        text-align: center;
+    }
+    .sort {
+        display: none;
+    }
+    .sort__item {
+        padding-right: 0;
+    }
+    .box-img1 {
+        margin-bottom: 0;
+    }
+    .attractions figure {
+        margin-bottom: 30px;
+    }
+    .flights__bottom,
+    .hotels__bottom,
+    .attractions__bottom,
+    .trips__bottom {
+        text-align: center;
+    }
+    figure img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .trip__box img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .sect_1 {
+        margin-top: 45px;
+    }
+    .sort {
+        width: 70%;
+    }
+    .sort__list {
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+    .sort__item {
+        padding-right: 9px;
+    }
+    .sort__link {
+        font-size: 1.4rem;
+    }
+    .flights__content th:first-child {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .flights__content td:first-child {
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+    .flights__content th:last-child {
+        padding-left: 30px;
+    }
+    .flights__content td:last-child {
+        padding-left: 30px;
+    }
+    .flights__bottom {
+        padding-top: 0;
+    }
+    .hotels__top,
+    .attractions__top {
+        margin-top: 30px;
+    }
+    .hotel__name {
+        height: 70px;
+    }
+    .flights__content {
+        th {
+            &:nth-child(3) {
+                padding-left: 5px;
+            }
+            &:nth-child(4) {
+                padding-left: 20px;
+            }
+            &:nth-child(5) {
+                padding-left: 20px;
+            }
+        }
+    }
+    .attractions__content {
+        padding-right: 10px;
+    }
+    figcaption {
+        width: 90%;
+        text-align: center;
+    }
+    .trip__txt {
+        line-height: 16px;
+        font-size: 1.4rem;
+    }
+    .trips {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .sect_1 {
+        margin-top: 65px;
+    }
+    .sort {
+        width: 70%;
+    }
+    .sort__list {
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+    .sort__item {
+        padding-right: 9px;
+    }
+    .flights__content {
+        th {
+            &:nth-child(3) {
+                padding-left: 15px;
+            }
+            &:nth-child(4) {
+                padding-left: 30px;
+            }
+            &:nth-child(5) {
+                padding-left: 40px;
+            }
+        }
+    }
+    .flights__bottom {
+        padding-top: 0;
+    }
+    .hotels__top,
+    .attractions__top {
+        margin-top: 30px;
+    }
+    .attractions__content {
+        padding-right: 10px;
+    }
+    .trips {
+        padding-top: 30px;
+    }
+}

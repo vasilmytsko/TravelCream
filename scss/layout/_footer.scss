@@ -1,0 +1,132 @@
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.footer__content {
+    overflow: hidden;
+    padding-top: 37px;
+    padding-left: 15px;
+}
+
+.footer__box {
+    padding-left: 58px;
+}
+.footer__box-1{
+    padding-left:0;
+}
+.footer__list {
+    margin-top: 40px;
+}
+
+.footer__item {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    font-size: 1.6rem;
+    color: $text-color2;
+    line-height: 31px;
+    &:hover {
+        color: $text-color3;
+    }
+    &:focus {
+        color: $text-color2;
+    }
+}
+
+.footer__box-contact {
+    padding-left: 75px;
+}
+
+.email {
+    display: inline-block;
+    color: $text-color4;
+    padding: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .footer {
+        margin-bottom: 50px;
+    }
+    .footer__group1,
+    .footer__group2 {
+        overflow: hidden;
+    }
+    .footer__box {
+        padding-left: 0;
+        margin: 0 -15px;
+    }
+    .footer__title {
+        font-size: 2rem;
+    }
+    .footer__list {
+        margin-top: 10px;
+        columns: 2;
+    }
+    .footer__list-col {
+        columns: 1;
+    }
+    .footer__link {
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .footer__box-contact {
+        padding-left: 10px;
+        margin: 0 -15px;
+    }
+    .email {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .footer {
+        margin-bottom: 50px;
+    }
+    .footer__group1,
+    .footer__group2 {
+        overflow: hidden;
+    }
+    .footer__box,
+    .footer__box-contact,
+    .email {
+        padding-left: 0;
+    }
+    .footer__title {
+        font-size: 2.5rem;
+    }
+    .footer__list {
+        columns: 2;
+    }
+    .footer__link {
+        font-size: 1.4rem;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer {
+        margin-bottom: 50px;
+    }
+    .footer__box,
+    .footer__box-contact,
+    .email {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .footer {
+        margin-bottom: 50px;
+    }
+    .footer__content {
+        padding-top: 0;
+    }
+}
